@@ -10,7 +10,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.hundal44.MyFitnessAppClient"
+      "bundleIdentifier": "com.hundal44.MyFitnessAppClient",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -23,6 +26,8 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.hundal44.MyFitnessAppClient",
       "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
       ]
     },
     "web": {

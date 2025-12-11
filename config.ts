@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://192.168.31.162:3000/api'; 
+const API_BASE_URL = 'https://malakatwat-backend-23u5.vercel.app/api';
 
 export const API_URLS = {
   // Auth
